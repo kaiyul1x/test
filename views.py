@@ -11,3 +11,6 @@ def f3(request):
 def f4(request):
 	print('4...')
 	return HttpResponse('4...')
+def f5(request):
+	print('5...')
+	return HttpResponse('5...')
